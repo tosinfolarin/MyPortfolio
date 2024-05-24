@@ -23,7 +23,7 @@ a:hover {
   position: absolute;
   top: 0;
   right: 0;
-  margin: 20px; /* Optional: Add some margin from the edges */
+  margin: 20px; 
 }
 
 .links {
@@ -49,6 +49,6 @@ a:hover {
 }
 
 .myProfilePic img {
-  width: 450px; /* Adjust the size as needed */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Adds a subtle shadow */
+  width: 450px; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
 }
