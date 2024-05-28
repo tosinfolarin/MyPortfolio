@@ -1,6 +1,8 @@
 const Projects = () => {
 
-    <div>
+    return(
+
+    <div className="ProjectsContent">
     <h1>This is a page about my projects</h1>
 
             <h3>This is a physiotherapy website created using purely HTML and CSS and minimal use of JavaScript for the dropdowns. It was my first project</h3>
@@ -12,7 +14,8 @@ const Projects = () => {
             <div className="ProjectImage"> 
                 <img src="src/images/TrinityDriving.png" alt="TrinityDriving"/>
             </div>
-</div>
+        </div>
+    )
 }
 
 export default Projects;
