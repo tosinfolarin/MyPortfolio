@@ -3,8 +3,10 @@ const Projects = () => {
     return(
 
     <div className="ProjectsContent">
-    <h1>This is a page about my projects</h1>
-
+        <br></br>
+        <br></br>
+        <br></br>
+ 
             <h3>This is a physiotherapy website created using purely HTML and CSS and minimal use of JavaScript for the dropdowns. It was my first project</h3>
             <div className="ProjectImage">
                 <img src="src/images/Physio4You.png" alt="Physio4You"/>
