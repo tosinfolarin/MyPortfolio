@@ -1,13 +1,13 @@
 import Navbar from "./Navbar";
 
 const CV = () => {
-    return (  
-            
-            <div>
-               <Navbar/>
-               <h1> This houses the CV </h1>
-            
-            </div>
+    return (   
+        <div>
+            <Navbar/>
+            <div className="CV">
+                <img src="src/images/CV.png" alt="CV"/>
+           </div>        
+        </div>
         
     );
 }
