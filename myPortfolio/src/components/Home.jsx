@@ -8,7 +8,7 @@ const MyInfo = () => {
       </div>
    
       <h3 className="name" aria-label="my name">
-        My name is Theodore Osinfolarin.
+        {information.greeting}
         <br /><br />
         {information.profile_summary}
       </h3>
