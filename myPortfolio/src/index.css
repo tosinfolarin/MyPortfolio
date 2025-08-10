@@ -28,7 +28,7 @@ a:hover {
 
 .links {
   display: flex;
-  gap: 15px; /* Adjust the spacing between links */
+  gap: 15px;
 }
 
 .links a {
@@ -38,7 +38,7 @@ a:hover {
 }
 
 .links a:hover {
-  color: #ff0000; /* Change color on hover */
+  color: #ff0000; /* Changes color on hover */
 }
 
 .myProfilePic {
@@ -53,22 +53,26 @@ a:hover {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
 }
 
+.ProjectsContent {
+  display: grid;
+  padding-bottom: 5rem;
+  padding-top: 5rem;
+  padding-left: 10rem;
+  padding-right: 10rem;
+  justify-content: center; 
+  align-items: center;     
+  text-align: center;      
+  gap: 2rem;            
+}
+
 .ProjectImage {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 20px; /* Optional: Add some space between images */
+  margin-top: 20px; 
 }
 
 .ProjectImage img {
-  width: 600px; /* Adjust the width as needed */
+  width: 600px;
   height: auto;
-}
-
-
-.ProjectsContent {
-  display: grid;
-  justify-content: center;
-  align-items: center;
- 
 }
