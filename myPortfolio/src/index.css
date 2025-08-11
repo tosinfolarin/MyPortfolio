@@ -53,7 +53,7 @@ a:hover {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
 }
 
-.ProjectsContent {
+.ProjectsContent, .HobbyContent {
   display: grid;
   padding-bottom: 5rem;
   padding-top: 5rem;
@@ -75,4 +75,20 @@ a:hover {
 .ProjectImage img {
   width: 600px;
   height: auto;
+}
+
+.HobbyImage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px; 
+}
+
+.HobbyImage img {
+  width: 600px;
+  height: auto;
+}
+
+.HobbyDescription {
+  color:#00008b;
 }

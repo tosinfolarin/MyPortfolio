@@ -1,14 +1,13 @@
 import Navbar from "./Navbar";
+import Hobbies from "./Hobbies";
 
 const HobbiesPage = () => {
     return (  
+        <div>
+            <Navbar/>
+            <Hobbies/>
             
-            <div>
-               <Navbar/>
-               <h1> This is a page about my hobbies</h1>
-            
-            </div>
-        
+        </div>
     );
 }
 
