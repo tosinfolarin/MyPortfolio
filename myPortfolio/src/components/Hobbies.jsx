@@ -2,7 +2,7 @@ import information from './information.json';
 
 const Hobbies = () => {
 
-    return(
+    return (
 
     <div className="HobbyContent">
         <br></br>
