@@ -33,19 +33,31 @@ a:hover {
 
 .links a {
   text-decoration: none;
-  color: #00008b; /* Dark blue color for links */
+  color: #00008b;
   font-weight: bold;
 }
 
 .links a:hover {
-  color: #ff0000; /* Changes color on hover */
+  color: #ff0000; 
 }
+
+.my-info {
+  display: flex;
+  align-items: center; 
+  gap: 20px;           
+  padding: 100px;
+}
+
 
 .myProfilePic {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex: 1;
 
+}
+.myDescription {
+  flex: 2; /* 2 parts */
 }
 
 .myProfilePic img {
