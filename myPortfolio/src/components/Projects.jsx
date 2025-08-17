@@ -7,7 +7,7 @@ const Projects = () => {
         <br></br>
     
  
-            <h3 className="ProjectDescription">This is a physiotherapy website created using purely HTML and CSS and minimal use of JavaScript for the dropdowns. It was my first project</h3>
+            <h3 className="ProjectDescriptionOne">This is a physiotherapy website created using purely HTML and CSS and minimal use of JavaScript for the dropdowns. It was my first project</h3>
             <div className="ProjectImage">
                 <img src="src/images/Physio4You.png" alt="Physio4You"/>
             </div>
