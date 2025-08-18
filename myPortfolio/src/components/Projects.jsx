@@ -17,7 +17,6 @@ const Projects = () => {
                 <img src="src/images/Physio4You.png" alt="Physio4You" />
             </a>
             </div>
-
             
             <h3 className="ProjectDescription">This is a driving school website which uses React, JSX</h3>
             <div className="ProjectImage"> 
