@@ -103,10 +103,10 @@ a:hover {
   padding: 120px;
 }
 
-/* 📱 Small screens (phones) */
+/* Small screens (phones) */
 @media (max-width: 768px) {
   body {
-    padding: 0 16px; /* ✅ Global side padding */
+    padding: 0 16px; 
   }
 
   .my-info {
@@ -144,10 +144,10 @@ a:hover {
   }
 }
 
-/* 💻 Medium screens (tablets) */
+/* Medium screens (tablets) */
 @media (min-width: 769px) and (max-width: 1024px) {
   body {
-    padding: 0 32px; /* ✅ Global side padding */
+    padding: 0 32px; 
   }
 
   .my-info {
