@@ -1,3 +1,7 @@
+import physioWebsitePic from '../images/Physio4You.png'
+import DrivingWebsitePic from '../images/TrinityDriving.png'
+import ReactPhysioWebsitePic from '../images/WaitlessPhysio.png'
+
 const Projects = () => {
 
     return(
@@ -14,7 +18,7 @@ const Projects = () => {
                 target="_blank"
                 rel="noopener noreferrer"
             >
-                <img src="/images/Physio4You.png" alt="Physio4You" />
+                <img src={physioWebsitePic} alt="Physio4You" />
             </a>
             </div>
             
@@ -25,7 +29,7 @@ const Projects = () => {
                 target="_blank"
                 rel="noopener noreferrer"
             >
-                <img src="src/images/TrinityDriving.png" alt="TrinityDriving"/>
+                <img src={DrivingWebsitePic} alt="TrinityDriving"/>
             </a>
             </div>
 
@@ -36,7 +40,7 @@ const Projects = () => {
                 target="_blank"
                 rel="noopener noreferrer"
             > 
-                <img src="src/images/WaitlessPhysio.png" alt="WaitlessPhysio"/>
+                <img src={ReactPhysioWebsitePic} alt="WaitlessPhysio"/>
             </a>
             </div>
         </div>

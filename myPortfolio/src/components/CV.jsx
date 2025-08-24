@@ -1,3 +1,5 @@
+import resume from '../images/CV.png'
+
 import Navbar from "./Navbar";
 
 const CV = () => {
@@ -5,7 +7,7 @@ const CV = () => {
         <div>
             <Navbar/>
             <div className="CV">
-                <img src="/images/CV.png" alt="CV"/>
+                <img src={resume} alt="CV"/>
            </div>        
         </div>
         
