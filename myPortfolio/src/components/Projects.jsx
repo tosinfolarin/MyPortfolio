@@ -10,9 +10,9 @@ const Projects = () => {
             <h3 className="ProjectDescriptionOne">This is a physiotherapy website created using purely HTML and CSS and minimal use of JavaScript for the dropdowns. It was my first project</h3>
             <div className="ProjectImage">
             <a 
-                // href="none" 
-                // target="_blank"
-                // rel="noopener noreferrer"
+                href="https://tosinfolarin.github.io/Physio4You/" 
+                target="_blank"
+                rel="noopener noreferrer"
             >
                 <img src="src/images/Physio4You.png" alt="Physio4You" />
             </a>
