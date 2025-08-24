@@ -14,7 +14,7 @@ const Projects = () => {
                 target="_blank"
                 rel="noopener noreferrer"
             >
-                <img src="src/images/Physio4You.png" alt="Physio4You" />
+                <img src="/images/Physio4You.png" alt="Physio4You" />
             </a>
             </div>
             

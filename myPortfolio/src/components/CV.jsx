@@ -5,7 +5,7 @@ const CV = () => {
         <div>
             <Navbar/>
             <div className="CV">
-                <img src="src/images/CV.png" alt="CV"/>
+                <img src="/images/CV.png" alt="CV"/>
            </div>        
         </div>
         
