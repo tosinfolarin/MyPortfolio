@@ -1,10 +1,11 @@
 import information from './information.json';
+import profilePic from '../images/ProfilePicture.png'
 
 const MyInfo = () => {
   return (
     <div className="my-info">
       <div className="myProfilePic">
-        <img src="src/images/ProfilePicture.png" alt="Profile" />
+        <img src={profilePic} alt="Profile" />
       </div>
 
       <div className="myDescription">
