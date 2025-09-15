@@ -39,6 +39,8 @@ body {
   }
 }
 
+@import "tailwindcss";
+
 .fade-background {
   animation: fadeBackground 2s forwards;
 }
