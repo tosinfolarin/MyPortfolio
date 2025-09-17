@@ -8,10 +8,13 @@ const MyInfo = () => {
   return (
     <div>
     <div className="my-info">
-      <div className="myProfilePic">
-        <img src={profilePic} alt="Profile" />
-      </div>
-
+    <div className="myProfilePic">
+      <img 
+        src={profilePic} 
+        alt="Profile" 
+        className="rounded-lg shadow-xl"  
+      />
+    </div>
       <div className="myDescription">
         <h3 className="name" aria-label="my name">
           {information.greeting}
