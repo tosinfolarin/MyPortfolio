@@ -91,7 +91,20 @@ a:hover {
   margin-top: 20px; 
 }
 
-.ProjectImage img,
+.ProjectImage img {
+  box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.3); 
+  border: 5px solid #ffffff; 
+  transition: transform 0.2s, box-shadow 0.2s;
+  border-radius: 8px;
+  padding: 5px; 
+}
+
+
+.ProjectImage img:hover {
+  transform: scale(1.05); /* slight zoom */
+  box-shadow: 4px 4px 12px rgba(0, 0, 0, 0.5); /* stronger shadow */
+}
+
 .HobbyImage img {
   width: 100%;
   max-width: 600px;
