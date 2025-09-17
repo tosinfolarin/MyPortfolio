@@ -2,7 +2,7 @@ import information from './information.json';
 import profilePic from '../images/ProfilePicture.png'
 import Projects from './Projects'
 import Hobbies from './Hobbies'
-import CV from './CV';
+// import CV from './CV';
 
 const MyInfo = () => {
   return (

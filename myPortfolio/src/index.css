@@ -116,9 +116,9 @@ a:hover {
   color: #00008b;
 }
 
-.CV {
+/* .CV {
   padding: 120px;
-}
+} */
 
 /* Small screens (phones) */
 @media (max-width: 768px) {
@@ -136,9 +136,9 @@ a:hover {
     padding: 2rem 1rem;
   }
 
-  .CV {
+  /* .CV {
     padding: 40px 20px;
-  }
+  } */
 
   .navbar {
     position: static;
@@ -177,9 +177,9 @@ a:hover {
     padding: 3rem 2rem;
   }
 
-  .CV {
+  /* .CV {
     padding: 60px 40px;
-  }
+  } */
 
   .myProfilePic img {
     max-width: 350px;
