@@ -13,7 +13,7 @@ const Navbar = () => {
                 target="_blank"
                 rel="noopener noreferrer"
                 >
-            <img className="linkedin w-8 h8" src={linkedin} alt="linkedin"/>
+            <img className="linkedin w-12 h12 -mt-2 " src={linkedin} alt="linkedin"/>
         </a>
             <a
                 href="https://github.com/tosinfolarin"
