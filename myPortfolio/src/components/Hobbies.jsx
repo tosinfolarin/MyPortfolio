@@ -10,12 +10,12 @@ const Hobbies = () => {
         <br></br>
         <br></br>
         <h3 className='HobbyDescription'>{information.hobbies_explanation}</h3>
-            <h3 className="ProjectDescription">Signing with Herne Bay Football Club </h3>
+            <h3 className="ProjectDescription"> <strong>Signing with Herne Bay Football Club</strong> </h3>
             <div className="HobbyImage"> 
                 <img src={hobbyimage2} alt="FootballSigning"/>
             </div>
 
-            <h3 className="ProjectDescription">Playing with Herne Bay Football Club </h3>
+            <h3 className="ProjectDescription"> <strong>Playing for Herne Bay Football Club</strong> </h3>
             <div className="HobbyImage"> 
                 <img src={hobbyimage1} alt="PlayingFootball"/>
             </div>
