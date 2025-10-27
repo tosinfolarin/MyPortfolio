@@ -1,52 +1,68 @@
-import physioWebsitePic from '../images/Physio4You.png'
-import DrivingWebsitePic from '../images/TrinityDriving.png'
-import ReactPhysioWebsitePic from '../images/WaitlessPhysio.png'
+import physioWebsitePic from '../images/Physio4You.png';
+import DrivingWebsitePic from '../images/TrinityDriving.png';
+import ReactPhysioWebsitePic from '../images/WaitlessPhysio.png';
+import './Projects.css'; // new CSS file
+
+const projects = [
+  {
+    title: "Driving School App",
+    description:
+      "A driving school website built with React.js, Node.js, and JSX syntax.",
+    img: DrivingWebsitePic,
+    link: "https://trinitydrivingschool.netlify.app/",
+  },
+  {
+    title: "Physiotherapy App",
+    description:
+      "A physiotherapy web app created using React.js, JSX, Node.js, and Express.js.",
+    img: ReactPhysioWebsitePic,
+    link: "https://physioapp-frontend.onrender.com/",
+  },
+  {
+    title: "First HTML and CSS Project",
+    description:
+      "A simple physiotherapy website built using pure HTML and CSS with light JavaScript for dropdowns — my very first project.",
+    img: physioWebsitePic,
+    link: "https://tosinfolarin.github.io/Physio4You/",
+  },
+];
 
 const Projects = () => {
-
-    return(
-
-    <div className="ProjectsContent">
-        <br></br>
-        <br></br>
-    
-            <h3 className="ProjectDescriptionOne">  <strong>Driving School App </strong><br/>This is a driving school website which uses React.js , Node.js and JSX syntax</h3>
-            <div className="ProjectImage"> 
-            <a 
-                href="https://trinitydrivingschool.netlify.app/"
-                target="_blank"
-                rel="noopener noreferrer"
+  return (
+    <div className="projects-container">
+      <h2 className="projects-title">My Projects</h2>
+      <div className="projects-grid">
+        {projects.map((project, index) => (
+          <div className="project-card" key={index}>
+            <a
+              href={project.link}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="project-image-link"
             >
-                <img src={DrivingWebsitePic} alt="TrinityDriving"/>
+              <img
+                src={project.img}
+                alt={project.title}
+                className="project-image"
+              />
             </a>
-            </div>
-
-            <h3 className="ProjectDescription"> <strong>Physiotherapy App </strong> <br/>This is a physiotherapy website using React.js, JSX, Node.js and Express.Js</h3>
-            <div className="ProjectImage">
-            <a 
-                href="https://physioapp-frontend.onrender.com/"
+            <div className="project-info">
+              <h3>{project.title}</h3>
+              <p>{project.description}</p>
+              <a
+                href={project.link}
                 target="_blank"
                 rel="noopener noreferrer"
-            > 
-                <img src={ReactPhysioWebsitePic} alt="WaitlessPhysio"/>
-            </a>
+                className="project-button"
+              >
+                View Project →
+              </a>
             </div>
-
-            <h3 className="ProjectDescription">  <strong>First HTML and CSS project </strong> <br/>This is a physiotherapy website created using purely HTML and CSS and minimal use of JavaScript for the dropdowns. It was my first project</h3>
-            
-            <div className="ProjectImage">
-            <a 
-                href="https://tosinfolarin.github.io/Physio4You/" 
-                target="_blank"
-                rel="noopener noreferrer"
-            >
-                <img src={physioWebsitePic} alt="Physio4You" />
-            </a>
-            </div>
-            
-      
-        </div>
-    )
-}
+          </div>
+        ))}
+      </div>
+    </div>
+  );
+};
 
 export default Projects;
