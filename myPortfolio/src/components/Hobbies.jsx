@@ -7,7 +7,7 @@ const Hobbies = () => {
   return (
     <section className="hobbies-section">
       <div className="hobbies-content">
-        <h2 className="hobbies-title">My Hobbies</h2>
+        <h2 className="hobbies-title">Hobbies</h2>
         <p className="hobbies-description">{information.hobbies_explanation}</p>
 
         <div className="hobbies-images">
