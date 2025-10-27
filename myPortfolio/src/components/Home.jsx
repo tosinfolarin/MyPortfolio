@@ -47,7 +47,7 @@ const MyInfo = () => {
           className="myDescription"
           style={{
             maxWidth: '600px',
-            textAlign: 'left', // keep text readable beside image
+            textAlign: 'left',
           }}
         >
           <h2

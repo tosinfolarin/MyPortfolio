@@ -8,14 +8,14 @@ const HobbiesPage = () => {
         <div
           style={{
             display: 'flex',
-            justifyContent: 'center',  // centers horizontally
+            justifyContent: 'center', 
             padding: '2rem',
           }}
         >
           <div
             style={{
-              width: '100%',       // optional: makes it responsive
-              maxWidth: '800px',   // limits the width of Hobbies
+              width: '100%',    
+              maxWidth: '800px',  
             }}
           >
             <Hobbies />

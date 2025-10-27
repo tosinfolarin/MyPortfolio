@@ -1,7 +1,7 @@
 import physioWebsitePic from '../images/Physio4You.png';
 import DrivingWebsitePic from '../images/TrinityDriving.png';
 import ReactPhysioWebsitePic from '../images/WaitlessPhysio.png';
-import './Projects.css'; // new CSS file
+import './Projects.css';
 
 const projects = [
   {
