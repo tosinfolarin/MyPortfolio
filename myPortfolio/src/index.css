@@ -1,9 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Space+Grotesk:wght@300..700&display=swap');
 
-body {
-  background: linear-gradient(to bottom, #ffffff, #00008b);
+html, body, #root {
   margin: 0;
   padding: 0;
+  width: 100%;
+  min-height: 100%; 
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  background: linear-gradient(to bottom, #ffffff, #00008b);
+  overflow-y: auto; 
 }
 
 * {
@@ -31,7 +37,7 @@ a:hover {
 .links {
   display: flex;
   gap: 15px;
-  flex-wrap: wrap; /* allows wrapping on small screens */
+  flex-wrap: wrap;
 }
 
 .links a {
@@ -44,12 +50,6 @@ a:hover {
   color: #ff0000; 
 }
 
-.my-info {
-  align-items: center; 
-  gap: 20px;           
-  padding: 100px;
-  flex-wrap: wrap; /* stacks on small screens */
-}
 .myDescription {
   color: #000000;
 }

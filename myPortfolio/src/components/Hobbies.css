@@ -1,4 +1,3 @@
-/* Container setup */
 .hobbies-section {
     display: flex;
     justify-content: center;
@@ -9,15 +8,14 @@
     background: #fafafa;
     color: #222;
     font-family: 'Inter', 'Helvetica Neue', sans-serif;
+    border-radius: 8px;
   }
   
-  /* Inner content box */
   .hobbies-content {
     max-width: 900px;
     width: 100%;
   }
   
-  /* Title styling */
   .hobbies-title {
     font-size: 2.4rem;
     font-weight: 700;
@@ -26,7 +24,6 @@
     letter-spacing: -0.5px;
   }
   
-  /* Description styling */
   .hobbies-description {
     font-size: 1.1rem;
     color: #555;
@@ -37,7 +34,6 @@
     margin-right: auto;
   }
   
-  /* Images layout */
   .hobbies-images {
     display: flex;
     justify-content: center;
@@ -45,7 +41,6 @@
     flex-wrap: wrap;
   }
   
-  /* Image styling */
   .hobby-img {
     width: 300px;
     height: 290px;
@@ -55,13 +50,11 @@
     transition: transform 0.3s ease, box-shadow 0.3s ease;
   }
   
-  /* Hover animation */
   .hobby-img:hover {
     transform: scale(1.05);
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
   }
   
-  /* Responsive adjustments */
   @media (max-width: 768px) {
     .hobbies-title {
       font-size: 2rem;
