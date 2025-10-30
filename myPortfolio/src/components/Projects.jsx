@@ -31,7 +31,7 @@ const projects = [
     description:
       "A book search application using TypeScript, React, Next.JS and API integration.",
     img: gutendexImage,
-    link: "https://gutendex-book-search-juxw4fbya-theos-projects-d84c16bb.vercel.app/",
+    link: "https://gutendex-book-search-ten.vercel.app/",
   },
 ];
 
