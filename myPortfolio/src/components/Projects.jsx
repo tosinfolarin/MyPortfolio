@@ -1,6 +1,7 @@
 import physioWebsitePic from '../images/Physio4You.png';
 import DrivingWebsitePic from '../images/TrinityDriving.png';
 import ReactPhysioWebsitePic from '../images/WaitlessPhysio.png';
+import gutendexImage from '../images/gutendexImage.png'
 import './Projects.css';
 
 const projects = [
@@ -24,6 +25,13 @@ const projects = [
       "A simple physiotherapy website built using pure HTML and CSS with light JavaScript for dropdowns — my very first project.",
     img: physioWebsitePic,
     link: "https://tosinfolarin.github.io/Physio4You/",
+  },
+  {
+    title: "Gutendex Book Search App",
+    description:
+      "A book search application using TypeScript, React, Next.JS and API integration.",
+    img: gutendexImage,
+    link: "https://gutendex-book-search-juxw4fbya-theos-projects-d84c16bb.vercel.app/",
   },
 ];
 
