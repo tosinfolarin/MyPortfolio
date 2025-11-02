@@ -5,7 +5,6 @@ import github from '../images/Github.png'
 
 const Navbar = () => {
     return (  
-        
         <div className="navbar">
         <div className="links">
         <a
