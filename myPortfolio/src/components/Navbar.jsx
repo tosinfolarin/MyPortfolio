@@ -2,7 +2,6 @@ import { Link } from "react-router-dom";
 import linkedin from '../images/linkedin.png'
 import github from '../images/Github.png'
 
-
 const Navbar = () => {
     return (  
         <div className="navbar">
@@ -25,7 +24,6 @@ const Navbar = () => {
             <Link to="/hobbies">Hobbies</Link> 
         </div>
     </div>
-
     );
 }
 
